@@ -1,0 +1,8 @@
+header {
+    --header-bg-color: brown;
+}
+
+header {
+    height: 50px;
+    background-color: var(--header-bg-color);
+}
