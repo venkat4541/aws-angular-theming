@@ -4,9 +4,11 @@ body {
     height: 100vh
 }
 
-:root {
+/* :root {
     --primary-color: #fff;
     --background-color: #e5e5e5;
     --text-color: #2d2d2d;
     --header-bg-color: brown;
-  }
+    --header-text-color: #eeeeee;
+    --footer-bg-color: #555555;
+  } */

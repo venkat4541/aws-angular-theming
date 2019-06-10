@@ -1,5 +1,5 @@
 footer {
     height: 160px;
-    background-color: #555555;
+    background-color: var(--footer-bg-color);
     bottom: 0px;
 }

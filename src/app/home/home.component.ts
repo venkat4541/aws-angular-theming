@@ -8,10 +8,7 @@ import { FetchThemeService } from '../fetch-theme.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private themeService: FetchThemeService) {}
-
   ngOnInit() {
-    this.themeService.switchTheme('colorful');
   }
 
 }
