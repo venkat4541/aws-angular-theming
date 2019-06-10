@@ -1,8 +1,10 @@
 header {
-    --header-bg-color: brown;
+    height: 70px;
+    background-color: var(--header-bg-color);
 }
 
-header {
-    height: 50px;
-    background-color: var(--header-bg-color);
+h2 {
+    margin: 0;
+    padding: 20px;
+    color: var(--primary-color);
 }
