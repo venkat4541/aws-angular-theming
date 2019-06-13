@@ -5,8 +5,14 @@ import { FetchThemeService } from './fetch-theme.service';
 @Component({
   selector: 'app-root',
   host: {
-    '[class.light-theme]': '( theme === "light" )',
-    '[class.dark-theme]': '( theme === "dark" )'
+    '[class.apple-theme]': '( theme === "apple" )',
+    '[class.amazon-theme]': '( theme === "amazon" )',
+    '[class.facebook-theme]': '( theme === "facebook" )',
+    '[class.microsoft-theme]': '( theme === "microsoft" )',
+    '[class.linkedin-theme]': '( theme === "linkedin" )',
+    '[class.snapchat-theme]': '( theme === "snapchat" )',
+    '[class.youtube-theme]': '( theme === "youtube" )',
+    '[class.spotify-theme]': '( theme === "spotify" )'
   },
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']

@@ -15,8 +15,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  public switchTheme() {
-    this.themeService.switchTheme();
+  public switchTheme(theme) {
+    this.themeService.switchTheme(theme);
   }
 
 }

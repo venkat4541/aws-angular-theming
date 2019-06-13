@@ -2,5 +2,15 @@
     <h2>
         CSS Dynamic Theming
     </h2>
-    <div class="switch" (click)="switchTheme()">Switch theme</div>
+    <select #selectedTeme (change)="switchTheme(selectedTeme.value)">
+        <option value="apple" selected="selected">Apple</option>
+        <option value="amazon">Amazon</option>
+        <option value="facebook">Facebook</option>
+        <option value="microsoft">Microsoft</option>
+        <option value="linkedin">Linkedin</option>
+        <option value="snapchat">Snapchat</option>
+        <option value="youtube">Youtube</option>
+        <option value="spotify">Spotify</option>
+      </select>
+
 </header>

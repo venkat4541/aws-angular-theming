@@ -8,11 +8,12 @@ export class FetchThemeService {
   activeTheme: string;
   themeChange: Subject<string> = new Subject<string>();
   constructor() {
-    this.activeTheme = 'light';
+    this.activeTheme = 'snapchat';
   }
 
-  switchTheme() {
-    this.activeTheme = this.activeTheme === 'light' ? 'dark' : 'light';
+  public switchTheme(theme) {
+    this.activeTheme = theme;
+    console.log(this.activeTheme);
     this.themeChange.next(this.activeTheme);
   }
 }

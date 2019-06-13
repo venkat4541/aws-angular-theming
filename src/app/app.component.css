@@ -1,19 +1,73 @@
-:host( .light-theme ) {
+:host( .apple-theme ) {
+    --background-color: #eeeeee;
+    --color: #333333;
+    --header-bg-color: #333333;
+    --header-text-color: #ffffff;
+    --footer-bg-color: #bbbbbb;
+    --footer-text-color: #666666;
+}
+
+:host( .amazon-theme ) {
     --background-color: #ffffff;
     --color: #333333;
-    --header-bg-color: brown;
-    --header-text-color: #e5e5e5;
-    --footer-bg-color: #555555;
+    --header-bg-color: #ff9900;
+    --header-text-color: #222222;
+    --footer-bg-color: #333333;
     --footer-text-color: #e5e5e5;
 }
 
-:host( .dark-theme ) {
-    --background-color: #444444;
-    --color: #f0f0f0;
-    --header-bg-color: #009aab;
+:host( .facebook-theme ) {
+    --background-color: #efefef;
+    --color: #111111;
+    --header-bg-color: #3b5998;
     --header-text-color: #e5e5e5;
-    --footer-bg-color: #111111;
+    --footer-bg-color: #3b5998;
     --footer-text-color: #e5e5e5;
+}
+
+:host( .microsoft-theme ) {
+    --background-color: #ffffff;
+    --color: #333333;
+    --header-bg-color: #f35022;
+    --header-text-color: #e5e5e5;
+    --footer-bg-color: #03a5f0;
+    --footer-text-color: #e5e5e5;
+}
+
+:host( .linkedin-theme ) {
+    --background-color: #ffffff;
+    --color: #000000;
+    --header-bg-color: #007bb5;
+    --header-text-color: #e5e5e5;
+    --footer-bg-color: #000000;
+    --footer-text-color: #e5e5e5;
+}
+
+:host( .snapchat-theme ) {
+    --background-color: #ffffff;
+    --color: #333333;
+    --header-bg-color: #fffc00;
+    --header-text-color: #000000;
+    --footer-bg-color: #000000;
+    --footer-text-color: #e5e5e5;
+}
+
+:host( .youtube-theme ) {
+    --background-color: #ffffff;
+    --color: #282828;
+    --header-bg-color: #ff0000;
+    --header-text-color: #e5e5e5;
+    --footer-bg-color: #282828;
+    --footer-text-color: #e5e5e5;
+}
+
+:host( .spotify-theme ) {
+    --background-color: #ffffff;
+    --color: #191414;
+    --header-bg-color: #1ed760;
+    --header-text-color: #ffffff;
+    --footer-bg-color: #1db954;
+    --footer-text-color: #191414;
 }
 
 :host {
