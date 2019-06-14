@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Dosis|Mali|Carme|Economica|Saira+Semi+Condensed|Titillium+Web|Ubuntu&display=swap');
+
 :host( .apple-theme ) {
     --background-color: #eeeeee;
     --color: #333333;
+    --font-family: 'Cuprum', sans-serif;
     --header-bg-color: #333333;
     --header-text-color: #ffffff;
     --footer-bg-color: #bbbbbb;
@@ -10,6 +13,7 @@
 :host( .amazon-theme ) {
     --background-color: #ffffff;
     --color: #333333;
+    --font-family: 'Mali', cursive;
     --header-bg-color: #ff9900;
     --header-text-color: #222222;
     --footer-bg-color: #333333;
@@ -19,6 +23,7 @@
 :host( .facebook-theme ) {
     --background-color: #efefef;
     --color: #111111;
+    --font-family: 'Saira Semi Condensed', sans-serif;
     --header-bg-color: #3b5998;
     --header-text-color: #e5e5e5;
     --footer-bg-color: #3b5998;
@@ -28,15 +33,17 @@
 :host( .microsoft-theme ) {
     --background-color: #ffffff;
     --color: #333333;
+    --font-family: 'Mali', cursive;
     --header-bg-color: #f35022;
     --header-text-color: #e5e5e5;
-    --footer-bg-color: #03a5f0;
+    --footer-bg-color: #dedede;
     --footer-text-color: #e5e5e5;
 }
 
 :host( .linkedin-theme ) {
     --background-color: #ffffff;
     --color: #000000;
+    --font-family: 'Titillium Web', sans-serif;
     --header-bg-color: #007bb5;
     --header-text-color: #e5e5e5;
     --footer-bg-color: #000000;
@@ -46,6 +53,7 @@
 :host( .snapchat-theme ) {
     --background-color: #ffffff;
     --color: #333333;
+    --font-family: 'Economica', sans-serif;
     --header-bg-color: #fffc00;
     --header-text-color: #000000;
     --footer-bg-color: #000000;
@@ -55,6 +63,7 @@
 :host( .youtube-theme ) {
     --background-color: #ffffff;
     --color: #282828;
+    --font-family: 'Dosis', sans-serif;
     --header-bg-color: #ff0000;
     --header-text-color: #e5e5e5;
     --footer-bg-color: #282828;
@@ -64,10 +73,11 @@
 :host( .spotify-theme ) {
     --background-color: #ffffff;
     --color: #191414;
+    --font-family: 'Carme', sans-serif;
     --header-bg-color: #1ed760;
     --header-text-color: #ffffff;
-    --footer-bg-color: #1db954;
-    --footer-text-color: #191414;
+    --footer-bg-color: #313131;
+    --footer-text-color: #cccccc;
 }
 
 :host {

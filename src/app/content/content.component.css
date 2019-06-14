@@ -1,0 +1,15 @@
+img {
+    width: 200px;
+    margin: 30px 0 10px 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h3 {
+    font-family: var(--font-family);
+    clear: both;
+}
+
+ul li {
+    font-family: var(--font-family);
+}

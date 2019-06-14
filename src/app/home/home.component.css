@@ -1,3 +1,8 @@
+app-content {
+    margin: 0 20px;
+    display: block;
+}
+
 app-footer {
     position: absolute;
     bottom: 0;

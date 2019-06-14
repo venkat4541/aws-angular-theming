@@ -8,7 +8,7 @@ export class FetchThemeService {
   activeTheme: string;
   themeChange: Subject<string> = new Subject<string>();
   constructor() {
-    this.activeTheme = 'snapchat';
+    this.activeTheme = 'apple';
   }
 
   public switchTheme(theme) {

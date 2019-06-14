@@ -3,10 +3,14 @@ header {
     background-color: var(--header-bg-color);
 }
 
-h2 {
-    margin: 0;
-    padding: 20px;
+.logo {
+    height: 70px;
+    width: 150px;
+    line-height: 70px;
+    padding-left: 20px;
     color: var(--header-text-color);
+    text-transform: uppercase;
+    font-size: 1.25em;
 }
 
 .switch {
