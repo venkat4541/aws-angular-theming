@@ -3,6 +3,13 @@ header {
     background-color: var(--header-bg-color);
 }
 
+h2 {
+    margin: 0;
+    color: var(--header-text-color);
+    line-height: 70px;
+    margin-left: 20px;
+}
+
 .logo {
     height: 70px;
     width: 150px;
